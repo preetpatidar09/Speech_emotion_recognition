@@ -1,0 +1,23 @@
+# Speech Emotion Recognition — Requirements
+# Install: pip install -r requirements.txt
+
+# Core
+streamlit>=1.35.0
+numpy>=1.24.0
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Audio recorder widget (for in-browser mic recording)
+audio-recorder-streamlit>=0.0.8
+
+# Visualization
+matplotlib>=3.7.0
+
+# Machine Learning (sklearn backend)
+scikit-learn>=1.3.0
+
+# Deep Learning (optional but recommended for best accuracy)
+tensorflow>=2.13.0        # or: tensorflow-cpu>=2.13.0
+
+# Extras
+tqdm>=4.65.0
